@@ -1,0 +1,15 @@
+{
+  "name": "session-pulse",
+  "version": "0.1.0",
+  "description": "Session vitals above the prompt: context fill, tokens, model, rate limits, cost (RU/EN)",
+  "types": "./types/index.d.ts",
+  "userConfig": {
+    "language": {
+      "type": "string",
+      "title": "Language / Язык",
+      "description": "Label language: ru or en / Язык подписей: ru или en",
+      "default": "ru",
+      "options": ["ru", "en"]
+    }
+  }
+}
